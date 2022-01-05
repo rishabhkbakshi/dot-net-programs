@@ -1,0 +1,11 @@
+c:\users\rishabh\documents\visual studio 2012\Projects\InsertTableDialog\InsertTableDialog\bin\Debug\InsertTableDialog.exe.config
+C:\Users\rishabh\Documents\Visual Studio 2012\Projects\InsertTableDialog\InsertTableDialog\obj\Debug\InsertTableDialog.csprojResolveAssemblyReference.cache
+C:\Users\rishabh\Documents\Visual Studio 2012\Projects\InsertTableDialog\InsertTableDialog\obj\Debug\InsertTableDialog.Properties.Resources.resources
+C:\Users\rishabh\Documents\Visual Studio 2012\Projects\InsertTableDialog\InsertTableDialog\obj\Debug\InsertTableDialog.csproj.GenerateResource.Cache
+C:\Users\rishabh\Documents\Visual Studio 2012\Projects\InsertTableDialog\InsertTableDialog\bin\Debug\InsertTableDialog.exe
+C:\Users\rishabh\Documents\Visual Studio 2012\Projects\InsertTableDialog\InsertTableDialog\bin\Debug\InsertTableDialog.pdb
+C:\Users\rishabh\Documents\Visual Studio 2012\Projects\InsertTableDialog\InsertTableDialog\obj\Debug\InsertTableDialog.exe
+C:\Users\rishabh\Documents\Visual Studio 2012\Projects\InsertTableDialog\InsertTableDialog\obj\Debug\InsertTableDialog.pdb
+F:\Study\Asp.net Study Material\Dot net Program\Visual Studio Program\Visual Studio 2013\Visual Studio 2013\Projects\InsertTableDialog\InsertTableDialog\bin\Debug\InsertTableDialog.exe.config
+F:\Study\Asp.net Study Material\Dot net Program\Visual Studio Program\Visual Studio 2013\Visual Studio 2013\Projects\InsertTableDialog\InsertTableDialog\obj\Debug\InsertTableDialog.exe
+F:\Study\Asp.net Study Material\Dot net Program\Visual Studio Program\Visual Studio 2013\Visual Studio 2013\Projects\InsertTableDialog\InsertTableDialog\obj\Debug\InsertTableDialog.pdb
