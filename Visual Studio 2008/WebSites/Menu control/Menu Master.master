@@ -1,0 +1,122 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Menu Master.master.cs"
+    Inherits="Menu_Master" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <style type="text/css">
+        .Menu
+        {
+            background: Aqua;
+            text-align: center;
+            font-size: 11px;
+            border: solid 1px #fff !important;
+        }
+        .menuhover
+        {
+            color: #fff;
+            background: Aqua;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div style="text-align: center;">
+        <img src="sadasd.JPG" style="width: 1222px; height: 242px" />
+        <br />
+        <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" CssClass="Menu" Font-Names="Verdana"
+            ForeColor="Black" Width="1237px" MaximumDynamicDisplayLevels="5">
+            <StaticMenuItemStyle Height="40px" />
+            <DynamicMenuItemStyle CssClass="Menu" Height="40px" HorizontalPadding="25px" />
+            <DynamicHoverStyle CssClass="menuhover" />
+            <StaticHoverStyle CssClass="menuhover" />
+            <Items>
+                <asp:MenuItem Text="Home" Enabled="true" NavigateUrl="~/Home.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="About us" Enabled="true">
+                    <asp:MenuItem Text="Overview" Enabled="true" NavigateUrl="~/Overview.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="Quality policy" Enabled="true" NavigateUrl="~/Quality pocily.aspx">
+                    </asp:MenuItem>
+                    <asp:MenuItem Text="History" Enabled="true" NavigateUrl="~/History.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="Message" Enabled="true">
+                        <asp:MenuItem Text="From Chairman message" Enabled="true" NavigateUrl="~/Chairman massage.aspx">
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="From Vice-Chairman message" Enabled="true" NavigateUrl="~/Vice Chairman message.aspx">
+                        </asp:MenuItem>
+                    </asp:MenuItem>
+                    <asp:MenuItem Text="About Director" Enabled="true"></asp:MenuItem>
+                    <asp:MenuItem Text="About Principal" Enabled="true"></asp:MenuItem>
+                    <asp:MenuItem Text="About Vice-Proncipal" Enabled="true"></asp:MenuItem>
+                    <asp:MenuItem Text="Location" Enabled="true"></asp:MenuItem>
+                    <asp:MenuItem Text="Society" Enabled="true"></asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem Text="Campus Amenities">
+                    <asp:MenuItem Text="Library" Enabled="true"></asp:MenuItem>
+                    <asp:MenuItem Text="Internet" Enabled="true"></asp:MenuItem>
+                    <asp:MenuItem Text="Health Service" Enabled="true"></asp:MenuItem>
+                    <asp:MenuItem Text="Sports" Enabled="true"></asp:MenuItem>
+                    <asp:MenuItem Text="Ease of tranport" Enabled="true"></asp:MenuItem>
+                    <asp:MenuItem Text="Hostel" Enabled="true"></asp:MenuItem>
+                    <asp:MenuItem Text="Canteen & mess" Enabled="true"></asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem Text="Academics">
+                    <asp:MenuItem Text="Engineering" Enabled="true">
+                        <asp:MenuItem Text="UG Program" Enabled="true">
+                            <asp:MenuItem Text="Civil Engineering" Enabled="true">
+                                <asp:MenuItem Text="Lab"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Electrical Engineering" Enabled="true">
+                                <asp:MenuItem Text="Faculty"></asp:MenuItem>
+                                <asp:MenuItem Text="Labs"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Elec. & Commu. Engineering" Enabled="true">
+                                <asp:MenuItem Text="Faculty"></asp:MenuItem>
+                                <asp:MenuItem Text="Labs"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Computer Science Engineering" Enabled="true">
+                                <asp:MenuItem Text="Faculty"></asp:MenuItem>
+                                <asp:MenuItem Text="Labs"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Mechenical Engineering" Enabled="true">
+                                <asp:MenuItem Text="Faculty"></asp:MenuItem>
+                                <asp:MenuItem Text="Labs"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Information Technology" Enabled="true">
+                                <asp:MenuItem Text="Faculty"></asp:MenuItem>
+                            </asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="PG Program" Enabled="true"></asp:MenuItem>
+                    </asp:MenuItem>
+                    <asp:MenuItem Text="Management" Enabled="true">
+                        <asp:MenuItem Text="Faculty" Enabled="true"></asp:MenuItem>
+                    </asp:MenuItem>
+                    <asp:MenuItem Text="Pharmacy" Enabled="true"></asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem Text="Admission" Enabled="true">
+                    <asp:MenuItem Text="Procedure" Enabled="true"></asp:MenuItem>
+                    <asp:MenuItem Text="Seat Matrix" Enabled="true"></asp:MenuItem>
+                    <asp:MenuItem Text="Fees Structure" Enabled="true"></asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem Text="Industrial Collaboration" Enabled="true">
+                    <asp:MenuItem Text="Campus Connect" Enabled="true"></asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem Text="Placement" Enabled="true">
+                    <asp:MenuItem Text="Training & Placement cell" Enabled="true"></asp:MenuItem>
+                    <asp:MenuItem Text="Placed Student" Enabled="true"></asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem Text="SKIP" Enabled="true"></asp:MenuItem>
+                <asp:MenuItem Text="Contact us" Enabled="true"></asp:MenuItem>
+            </Items>
+        </asp:Menu>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <img src="wewefw.JPG" style="width: 1223px; height: 31px" />
+        <h3 style="background-color: Blue; color: White">
+            Developed by: Rishabh bakshi
+        </h3>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<%@ Master Language="C#" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<script runat="server">
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        lblUser.Text = (String) Session["fullname"];
+    }
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table width="100%" height="600px">
+            <tr>
+                <td width="25%" valign="top" bgcolor="#99ccff">
+                    <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1" ImageSet="Simple" NodeIndent="10">
+                        <ParentNodeStyle Font-Bold="False" />
+                        <HoverNodeStyle Font-Underline="True" ForeColor="#DD5555" />
+                        <SelectedNodeStyle Font-Underline="True" ForeColor="#DD5555" HorizontalPadding="0px"
+                            VerticalPadding="0px" />
+                        <NodeStyle Font-Names="Verdana" Font-Size="8pt" ForeColor="Black" HorizontalPadding="0px"
+                            NodeSpacing="0px" VerticalPadding="0px" />
+                    </asp:TreeView>
+                    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+                </td>
+                <td valign="top">
+                    <asp:Label ID="lblUser" runat="server" Font-Bold="True" ForeColor="Navy"></asp:Label><br />
+                    <br />
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                    <br />
+                    <asp:SiteMapPath ID="SiteMapPath1" runat="server" BackColor="LightSteelBlue" Font-Bold="True" ForeColor="Black">
+                        <RootNodeStyle ForeColor="Black" />
+                    </asp:SiteMapPath>
+                </td>
+            </tr>
+     </table>
+    </form>
+</body>
+</html>
