@@ -1,0 +1,5 @@
+C:\Users\rishabh\Documents\Visual Studio 2012\Projects\WebSite31\ServerControl1\obj\Debug\ServerControl1.csprojResolveAssemblyReference.cache
+C:\Users\rishabh\Documents\Visual Studio 2012\Projects\WebSite31\ServerControl1\bin\Debug\ServerControl1.dll
+C:\Users\rishabh\Documents\Visual Studio 2012\Projects\WebSite31\ServerControl1\bin\Debug\ServerControl1.pdb
+C:\Users\rishabh\Documents\Visual Studio 2012\Projects\WebSite31\ServerControl1\obj\Debug\ServerControl1.dll
+C:\Users\rishabh\Documents\Visual Studio 2012\Projects\WebSite31\ServerControl1\obj\Debug\ServerControl1.pdb
