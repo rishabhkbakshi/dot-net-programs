@@ -1,0 +1,30 @@
+C:\Users\Rishdik\Documents\Visual Studio 2012\Projects\SpiderChart\SpiderChart\obj\Debug\SpiderChart.Form1.resources
+C:\Users\Rishdik\Documents\Visual Studio 2012\Projects\SpiderChart\SpiderChart\obj\Debug\SpiderChart.Properties.Resources.resources
+C:\Users\Rishdik\Documents\Visual Studio 2012\Projects\SpiderChart\SpiderChart\obj\Debug\SpiderChart.csproj.GenerateResource.Cache
+C:\Users\Rishdik\Documents\Visual Studio 2012\Projects\SpiderChart\SpiderChart\bin\Debug\SpiderChart.exe
+C:\Users\Rishdik\Documents\Visual Studio 2012\Projects\SpiderChart\SpiderChart\bin\Debug\SpiderChart.pdb
+C:\Users\Rishdik\Documents\Visual Studio 2012\Projects\SpiderChart\SpiderChart\obj\Debug\SpiderChart.exe
+C:\Users\Rishdik\Documents\Visual Studio 2012\Projects\SpiderChart\SpiderChart\obj\Debug\SpiderChart.pdb
+C:\Users\Rishdik\Documents\Visual Studio 2012\Projects\SpiderChart\SpiderChart\bin\Debug\SpiderChart.exe.config
+C:\Users\Rishdik\Documents\Visual Studio 2012\Projects\SpiderChart\SpiderChart\obj\Debug\SpiderChart.csprojResolveAssemblyReference.cache
+C:\Users\Rishdik\Documents\Visual Studio 2012\Projects\SpiderChart\SpiderChart\obj\Debug\SpiderChart.csproj.ResolveComReference.cache
+C:\Users\rishabh\Documents\Visual Studio 2012\Projects\SpiderChart\SpiderChart\bin\Debug\SpiderChart.exe.config
+C:\Users\rishabh\Documents\Visual Studio 2012\Projects\SpiderChart\SpiderChart\obj\Debug\SpiderChart.csproj.ResolveComReference.cache
+C:\Users\rishabh\Documents\Visual Studio 2012\Projects\SpiderChart\SpiderChart\obj\Debug\SpiderChart.exe
+C:\Users\rishabh\Documents\Visual Studio 2012\Projects\SpiderChart\SpiderChart\obj\Debug\SpiderChart.pdb
+C:\Users\rishabh\Documents\Visual Studio 2012\Projects\SpiderChart\SpiderChart\bin\Debug\SpiderChart.exe
+C:\Users\rishabh\Documents\Visual Studio 2012\Projects\SpiderChart\SpiderChart\bin\Debug\SpiderChart.pdb
+C:\Users\rishabh\Documents\Visual Studio 2012\Projects\SpiderChart\SpiderChart\bin\Debug\MySql.Data.dll
+C:\Users\rishabh\Documents\Visual Studio 2012\Projects\SpiderChart\SpiderChart\bin\Debug\MySql.Data.Entity.dll
+C:\Users\rishabh\Documents\Visual Studio 2012\Projects\SpiderChart\SpiderChart\obj\Debug\SpiderChart.csprojResolveAssemblyReference.cache
+C:\Users\rishabh\Documents\Visual Studio 2012\Projects\SpiderChart\SpiderChart\obj\Debug\SpiderChart.Form1.resources
+C:\Users\rishabh\Documents\Visual Studio 2012\Projects\SpiderChart\SpiderChart\obj\Debug\SpiderChart.Properties.Resources.resources
+C:\Users\rishabh\Documents\Visual Studio 2012\Projects\SpiderChart\SpiderChart\obj\Debug\SpiderChart.csproj.GenerateResource.Cache
+C:\Users\rishabh\Documents\WPA Files\Visual Studio 2012\Projects\SpiderChart\SpiderChart\bin\Debug\SpiderChart.exe.config
+C:\Users\rishabh\Documents\WPA Files\Visual Studio 2012\Projects\SpiderChart\SpiderChart\obj\Debug\SpiderChart.csproj.ResolveComReference.cache
+C:\Users\rishabh\Documents\WPA Files\Visual Studio 2012\Projects\SpiderChart\SpiderChart\obj\Debug\SpiderChart.exe
+C:\Users\rishabh\Documents\WPA Files\Visual Studio 2012\Projects\SpiderChart\SpiderChart\obj\Debug\SpiderChart.pdb
+F:\Study\Asp.net Study Material\Dot net Program\Visual Studio Program\Visual Studio 2013\Visual Studio 2013\Projects\SpiderChart\SpiderChart\bin\Debug\SpiderChart.exe.config
+F:\Study\Asp.net Study Material\Dot net Program\Visual Studio Program\Visual Studio 2013\Visual Studio 2013\Projects\SpiderChart\SpiderChart\obj\Debug\SpiderChart.csproj.ResolveComReference.cache
+F:\Study\Asp.net Study Material\Dot net Program\Visual Studio Program\Visual Studio 2013\Visual Studio 2013\Projects\SpiderChart\SpiderChart\obj\Debug\SpiderChart.exe
+F:\Study\Asp.net Study Material\Dot net Program\Visual Studio Program\Visual Studio 2013\Visual Studio 2013\Projects\SpiderChart\SpiderChart\obj\Debug\SpiderChart.pdb

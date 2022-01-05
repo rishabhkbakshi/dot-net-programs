@@ -1,0 +1,400 @@
+﻿        Excel.Application xla13RG = new Excel.Application();
+		Excel.Application xla22RG = new Excel.Application();
+        Excel.Application xla24 = new Excel.Application();
+        Excel.Application xla25 = new Excel.Application();
+
+
+
+
+
+
+                /*********Second Proc************/
+
+                MySqlCommand cmd13RG = new MySqlCommand("Spider_13RG", con);
+                cmd13RG.CommandType = CommandType.StoredProcedure;
+                cmd13RG.Parameters.AddWithValue("@var1", Chrt);
+                cmd13RG.Parameters.AddWithValue("@var2", Assessment);
+                MySqlDataAdapter da13RG = new MySqlDataAdapter(cmd13RG);
+                DataTable dt13RG = new DataTable();
+                da13RG.Fill(dt13RG);
+                if (dt13RG != null)
+                {
+                    if (dt13RG.Rows.Count >= 1)
+                    {
+                        xla13RG.Visible = true;
+                        Excel.Workbook wb13RG = xla13RG.Workbooks.Add(Excel.XlWBATemplate.xlWBATWorksheet);
+                        Excel.Worksheet ws13RG = (Excel.Worksheet)wb13RG.Worksheets.get_Item(1);
+                        for (int clms = 1; clms < dt13RG.Columns.Count + 1; clms++)
+                        {
+                            ws13RG.Cells[1, clms] = dt13RG.Columns[clms - 1].ToString().ToUpper() + "\t";
+                            string myHeader = dt13RG.Columns[clms - 1].ToString().ToUpper();
+                        }
+                        for (int i = 0; i <= dt13RG.Rows.Count - 1; i++)
+                        {
+                            for (int j = 0; j <= dt13RG.Columns.Count - 1; j++)
+                            {
+                                string data = dt13RG.Rows[i].ItemArray[j].ToString();
+                                ws13RG.Cells[i + 2, j + 1] = data;
+                            }
+                        }
+                        ws13RG.Columns.AutoFit();
+                        wb13RG.SaveAs("C:\\Users\\Rishdik\\Documents\\New folder " + "(" + Chrt + ")" + "\\csharp.net-informations2" + Chrt + ".csv", Excel.XlFileFormat.xlWorkbookNormal, missing, missing, missing, missing, Excel.XlSaveAsAccessMode.xlExclusive, missing, missing, missing, missing, missing);
+
+                        wb13RG.Close(true, missing, missing);
+                        xla13RG.Quit();
+                    }
+                }
+                xla13RG.Visible = true;
+                string filePath13RG = "C:\\Users\\Rishdik\\Documents\\New folder " + "(" + Chrt + ")";
+                string fileName13RG = filePath13RG + "\\csharp.net-informations2" + Chrt + ".csv";
+                xla13RG.Workbooks.OpenText(fileName13RG, missing, 1, missing, Excel.XlTextQualifier.xlTextQualifierNone, missing, missing, missing, true, missing, missing, missing, missing, missing, missing, missing, missing, missing);
+                Excel.Worksheet ws13RG2 = (Excel.Worksheet)xla13RG.ActiveSheet;
+                Excel.ChartObjects chartObjs13RG = (Excel.ChartObjects)ws13RG2.ChartObjects(Type.Missing);
+                Excel.ChartObject chartObj13RG = chartObjs13RG.Add(150, 150, 300, 250);
+                Excel.Chart xlChart13RG = chartObj13RG.Chart;
+                Excel.Range rg13RG = ws13RG2.get_Range("A1", "B9");
+
+                //Formatting of Chart:
+                xlChart13RG.SetSourceData(rg13RG, Excel.XlRowCol.xlColumns);
+                xlChart13RG.ChartType = Excel.XlChartType.xlRadarMarkers;
+                xlChart13RG.PlotArea.Interior.Color = Color.Gray;
+                xlChart13RG.ChartArea.Interior.Color = Color.Black;
+                xlChart13RG.ChartArea.Font.Color = Color.White;
+
+                //Customize X axes:
+                Excel.Axis xAxis13RG = (Excel.Axis)xlChart13RG.Axes(Excel.XlAxisType.xlCategory, Excel.XlAxisGroup.xlPrimary);
+                xAxis13RG.HasMajorGridlines = true;
+
+                //Customize Y axes:
+                Excel.Axis yAxis13RG = (Excel.Axis)xlChart13RG.Axes(Excel.XlAxisType.xlValue, Excel.XlAxisGroup.xlPrimary);
+                yAxis13RG.HasMajorGridlines = true;
+                yAxis13RG.CrossesAt = -1.5;
+
+                //Add title:
+                xlChart13RG.HasTitle = true;
+                xlChart13RG.ChartTitle.Text = "Gap";
+                xlChart13RG.SizeWithWindow = true;
+
+                //Font Size:
+                xlChart13RG.ChartArea.Font.Size = fontSize;
+
+                //Add & position of legend:
+                xlChart13RG.HasLegend = true;
+                xlChart13RG.Legend.Position = Excel.XlLegendPosition.xlLegendPositionBottom;
+                xlChart13RG.Export("E:\\New folder " + "(" + Chrt + ")" + "\\Spider2" + Chrt + ".jpg", "jpg", missing);
+                xla13RG.DisplayAlerts = false;
+                xla13RG.Quit();
+
+
+				                /*********Fourth Proc************/
+
+                MySqlCommand cmd22RG = new MySqlCommand("Spider_22RG", con);
+                cmd22RG.CommandType = CommandType.StoredProcedure;
+                cmd22RG.Parameters.AddWithValue("@var1", Chrt);
+                cmd22RG.Parameters.AddWithValue("@var2", Assessment);
+                MySqlDataAdapter da22RG = new MySqlDataAdapter(cmd22RG);
+                DataTable dt22RG = new DataTable();
+                da22RG.Fill(dt22RG);
+                if (dt22RG != null)
+                {
+                    if (dt22RG.Rows.Count >= 1)
+                    {
+                        xla22RG.Visible = true;
+                        Excel.Workbook wb22RG = xla22RG.Workbooks.Add(Excel.XlWBATemplate.xlWBATWorksheet);
+                        Excel.Worksheet ws22RG = (Excel.Worksheet)wb22RG.Worksheets.get_Item(1);
+                        for (int clms = 1; clms < dt22RG.Columns.Count + 1; clms++)
+                        {
+                            ws22RG.Cells[1, clms] = dt22RG.Columns[clms - 1].ToString().ToUpper() + "\t";
+                            string myHeader = dt22RG.Columns[clms - 1].ToString().ToUpper();
+                        }
+                        for (int i = 0; i <= dt22RG.Rows.Count - 1; i++)
+                        {
+                            for (int j = 0; j <= dt22RG.Columns.Count - 1; j++)
+                            {
+                                string data = dt22RG.Rows[i].ItemArray[j].ToString();
+                                ws22RG.Cells[i + 2, j + 1] = data;
+                            }
+                        }
+                        ws22RG.Columns.AutoFit();
+                        wb22RG.SaveAs("C:\\Users\\Rishdik\\Documents\\New folder " + "(" + Chrt + ")" + "\\csharp.net-informations4" + Chrt + ".csv", Excel.XlFileFormat.xlWorkbookNormal, missing, missing, missing, missing, Excel.XlSaveAsAccessMode.xlExclusive, missing, missing, missing, missing, missing);
+
+                        wb22RG.Close(true, missing, missing);
+                        xla22RG.Quit();
+                    }
+                }
+                xla22RG.Visible = true;
+                string filePath22RG = "C:\\Users\\Rishdik\\Documents\\New folder " + "(" + Chrt + ")";
+                string fileName22RG = filePath22RG + "\\csharp.net-informations4" + Chrt + ".csv";
+                xla22RG.Workbooks.OpenText(fileName22RG, missing, 1, missing, Excel.XlTextQualifier.xlTextQualifierNone, missing, missing, missing, true, missing, missing, missing, missing, missing, missing, missing, missing, missing);
+                Excel.Worksheet ws22RG2 = (Excel.Worksheet)xla22RG.ActiveSheet;
+                Excel.ChartObjects chartObjs22RG = (Excel.ChartObjects)ws22RG2.ChartObjects(Type.Missing);
+                Excel.ChartObject chartObj22RG = chartObjs22RG.Add(150, 150, 300, 250);
+                Excel.Chart xlChart22RG = chartObj22RG.Chart;
+                Excel.Range rg22RG = ws22RG2.get_Range("A1", "B12");
+
+                //Formatting of Chart:+
+                xlChart22RG.SetSourceData(rg22RG, Excel.XlRowCol.xlColumns);
+                xlChart22RG.ChartType = Excel.XlChartType.xlRadarMarkers;
+                xlChart22RG.PlotArea.Interior.Color = Color.Gray;
+                xlChart22RG.ChartArea.Interior.Color = Color.Black;
+                xlChart22RG.ChartArea.Font.Color = Color.White;
+
+                //Customize X axes:
+                Excel.Axis xAxis22RG = (Excel.Axis)xlChart22RG.Axes(Excel.XlAxisType.xlCategory, Excel.XlAxisGroup.xlPrimary);
+                xAxis22RG.HasMajorGridlines = true;
+
+                //Customize Y axes:
+                Excel.Axis yAxis22RG = (Excel.Axis)xlChart22RG.Axes(Excel.XlAxisType.xlValue, Excel.XlAxisGroup.xlPrimary);
+                yAxis22RG.HasMajorGridlines = true;
+                yAxis22RG.CrossesAt = -1.5;
+
+                //Add title:
+                xlChart22RG.HasTitle = true;
+                xlChart22RG.ChartTitle.Text = "Gap";
+                xlChart22RG.SizeWithWindow = true;
+
+                //Font Size:
+                xlChart22RG.ChartArea.Font.Size = fontSize;
+
+                //Add & position of legend:
+                xlChart22RG.HasLegend = true;
+                xlChart22RG.Legend.Position = Excel.XlLegendPosition.xlLegendPositionBottom;
+                xlChart22RG.Export("E:\\New folder " + "(" + Chrt + ")" + "\\Spider4" + Chrt + ".jpg", "jpg", missing);
+                xla22RG.DisplayAlerts = false;
+                xla22RG.Quit();
+
+                /*********Fifth Proc************/
+
+                MySqlCommand cmd24 = new MySqlCommand("Spider_24", con);
+                cmd24.CommandType = CommandType.StoredProcedure;
+                cmd24.Parameters.AddWithValue("@var1", Chrt);
+                cmd24.Parameters.AddWithValue("@var2", Assessment);
+                MySqlDataAdapter da24 = new MySqlDataAdapter(cmd24);
+                DataTable dt24 = new DataTable();
+                da24.Fill(dt24);
+                if (dt24 != null)
+                {
+                    if (dt24.Rows.Count >= 1)
+                    {
+                        xla24.Visible = true;
+                        Excel.Workbook wb24 = xla24.Workbooks.Add(Excel.XlWBATemplate.xlWBATWorksheet);
+                        Excel.Worksheet ws24 = (Excel.Worksheet)wb24.Worksheets.get_Item(1);
+                        for (int clms = 1; clms < dt24.Columns.Count + 1; clms++)
+                        {
+                            ws24.Cells[1, clms] = dt24.Columns[clms - 1].ToString().ToUpper() + "\t";
+                            string myHeader = dt24.Columns[clms - 1].ToString().ToUpper();
+                        }
+                        for (int i = 0; i <= dt24.Rows.Count - 1; i++)
+                        {
+                            for (int j = 0; j <= dt24.Columns.Count - 1; j++)
+                            {
+                                string data = dt24.Rows[i].ItemArray[j].ToString();
+                                ws24.Cells[i + 2, j + 1] = data;
+                            }
+                        }
+                        ws24.Columns.AutoFit();
+                        wb24.SaveAs("C:\\Users\\Rishdik\\Documents\\New folder " + "(" + Chrt + ")" + "\\csharp.net-informations5" + Chrt + ".csv", Excel.XlFileFormat.xlWorkbookNormal, missing, missing, missing, missing, Excel.XlSaveAsAccessMode.xlExclusive, missing, missing, missing, missing, missing);
+
+                        wb24.Close(true, missing, missing);
+                        xla24.Quit();
+                    }
+                }
+                xla24.Visible = true;
+                string filePath24 = "C:\\Users\\Rishdik\\Documents\\New folder " + "(" + Chrt + ")";
+                string fileName24 = filePath24 + "\\csharp.net-informations5" + Chrt + ".csv";
+                xla24.Workbooks.OpenText(fileName24, missing, 1, missing, Excel.XlTextQualifier.xlTextQualifierNone, missing, missing, missing, true, missing, missing, missing, missing, missing, missing, missing, missing, missing);
+                Excel.Worksheet ws242 = (Excel.Worksheet)xla24.ActiveSheet;
+                Excel.ChartObjects chartObjs24 = (Excel.ChartObjects)ws242.ChartObjects(Type.Missing);
+                Excel.ChartObject chartObj24 = chartObjs24.Add(250, 250, 500, 300);
+                Excel.Chart xlChart24 = chartObj24.Chart;
+                Excel.Range rg24 = ws242.get_Range("A1", "C24");
+
+                //Formatting of Chart:
+                xlChart24.SetSourceData(rg24, Excel.XlRowCol.xlColumns);
+                xlChart24.ChartType = Excel.XlChartType.xlRadar;
+                xlChart24.PlotArea.Interior.ColorIndex = 2;
+                xlChart24.PlotArea.Border.ColorIndex = 2;
+
+                //Customize X axes:
+                Excel.Axis xAxis24 = (Excel.Axis)xlChart24.Axes(Excel.XlAxisType.xlCategory, Excel.XlAxisGroup.xlPrimary);
+                xAxis24.HasMajorGridlines = true;
+
+                //Customize Y axes:
+                Excel.Axis yAxis24 = (Excel.Axis)xlChart24.Axes(Excel.XlAxisType.xlValue, Excel.XlAxisGroup.xlPrimary);
+                yAxis24.HasMajorGridlines = true;
+                yAxis24.CrossesAt = -1.5;
+
+                //Add title:
+                xlChart24.HasTitle = true;
+                xlChart24.ChartTitle.Text = "Knowledge Areas";
+                xlChart24.SizeWithWindow = true;
+
+                //Font Size:
+                xlChart24.ChartArea.Font.Size = fontSize;
+
+                //Add & positon of legend:
+                xlChart24.HasLegend = true;
+                xlChart24.Legend.Position = Excel.XlLegendPosition.xlLegendPositionBottom;
+                xlChart24.Export("E:\\New folder " + "(" + Chrt + ")" + "\\Spider5" + Chrt + ".jpg", "jpg", missing);
+                xla24.DisplayAlerts = false;
+                xla24.Quit();
+
+
+
+
+
+				                /*********Sixth Proc************/
+
+                MySqlCommand cmd25 = new MySqlCommand("Spider_25", con);
+                cmd25.CommandType = CommandType.StoredProcedure;
+                cmd25.Parameters.AddWithValue("@var1", Chrt);
+                cmd25.Parameters.AddWithValue("@var2", Assessment);
+                MySqlDataAdapter da25 = new MySqlDataAdapter(cmd25);
+                DataTable dt25 = new DataTable();
+                da25.Fill(dt25);
+                if (dt25 != null)
+                {
+                    if (dt25.Rows.Count >= 1)
+                    {
+                        xla25.Visible = true;
+                        Excel.Workbook wb25 = xla25.Workbooks.Add(Excel.XlWBATemplate.xlWBATWorksheet);
+                        Excel.Worksheet ws25 = (Excel.Worksheet)wb25.Worksheets.get_Item(1);
+                        for (int clms = 1; clms < dt25.Columns.Count + 1; clms++)
+                        {
+                            ws25.Cells[1, clms] = dt25.Columns[clms - 1].ToString().ToUpper() + "\t";
+                            string myHeader = dt25.Columns[clms - 1].ToString().ToUpper();
+                        }
+                        for (int i = 0; i <= dt25.Rows.Count - 1; i++)
+                        {
+                            for (int j = 0; j <= dt25.Columns.Count - 1; j++)
+                            {
+                                string data = dt25.Rows[i].ItemArray[j].ToString();
+                                ws25.Cells[i + 2, j + 1] = data;
+                            }
+                        }
+                        ws25.Columns.AutoFit();
+                        wb25.SaveAs("C:\\Users\\Rishdik\\Documents\\New folder " + "(" + Chrt + ")" + "\\csharp.net-informations6" + Chrt + ".csv", Excel.XlFileFormat.xlWorkbookNormal, missing, missing, missing, missing, Excel.XlSaveAsAccessMode.xlExclusive, missing, missing, missing, missing, missing);
+
+                        wb25.Close(true, missing, missing);
+                        xla25.Quit();
+                    }
+                }
+                xla25.Visible = true;
+                string filePath25 = "C:\\Users\\Rishdik\\Documents\\New folder " + "(" + Chrt + ")";
+                string fileName25 = filePath25 + "\\csharp.net-informations6" + Chrt + ".csv";
+                xla25.Workbooks.OpenText(fileName25, missing, 1, missing, Excel.XlTextQualifier.xlTextQualifierNone, missing, missing, missing, true, missing, missing, missing, missing, missing, missing, missing, missing, missing);
+                Excel.Worksheet ws252 = (Excel.Worksheet)xla25.ActiveSheet;
+                Excel.ChartObjects chartObjs25 = (Excel.ChartObjects)ws252.ChartObjects(Type.Missing);
+                Excel.ChartObject chartObj25 = chartObjs25.Add(250, 250, 500, 300);
+                Excel.Chart xlChart25 = chartObj25.Chart;
+                Excel.Range rg25 = ws252.get_Range("A1", "B24");
+
+                //Formatting of Chart:
+                xlChart25.SetSourceData(rg25, Excel.XlRowCol.xlColumns);
+                xlChart25.ChartType = Excel.XlChartType.xlRadarMarkers;
+                xlChart25.PlotArea.Interior.Color = Color.Gray;
+                xlChart25.ChartArea.Interior.Color = Color.Black;
+                xlChart25.ChartArea.Font.Color = Color.White;
+
+                //Customize X axes:
+                Excel.Axis xAxis25 = (Excel.Axis)xlChart25.Axes(Excel.XlAxisType.xlCategory, Excel.XlAxisGroup.xlPrimary);
+                xAxis25.HasMajorGridlines = true;
+
+                //Customize Y axes:
+                Excel.Axis yAxis25 = (Excel.Axis)xlChart25.Axes(Excel.XlAxisType.xlValue, Excel.XlAxisGroup.xlPrimary);
+                yAxis25.HasMajorGridlines = true;
+                yAxis25.CrossesAt = -1.5;
+
+                //Add title:
+                xlChart25.HasTitle = true;
+                xlChart25.ChartTitle.Text = "Gap";
+                xlChart25.SizeWithWindow = true;
+
+                //Font Size:
+                xlChart25.ChartArea.Font.Size = fontSize;
+
+                //Add & position of legend:
+                xlChart25.HasLegend = true;
+                xlChart25.Legend.Position = Excel.XlLegendPosition.xlLegendPositionBottom;
+                xlChart25.Export("E:\\New folder " + "(" + Chrt + ")" + "\\Spider6" + Chrt + ".jpg", "jpg", missing);
+                xla25.DisplayAlerts = false;
+                xla25.Quit();
+
+
+
+
+
+
+
+
+
+				/*********** Other Label logic *******************/
+
+				                                if (i == 0)
+                                {
+                                    data = "  " + data + "  ";
+                                    ws13R.Cells[i + 2, j + 1] = strdata;
+                                }
+                                else if (i == 1)
+                                {
+                                    data = "  " + data + "  ";
+                                    ws13R.Cells[i + 2, j + 1] = data;
+                                }
+                                else if (i == 2)
+                                {
+                                    data = "  " + data + "  ";
+                                    ws13R.Cells[i + 2, j + 1] = data;
+                                }
+                                else if (i == 3)
+                                {
+                                    string strdata = data.Contains(" ") ? data.Replace(" ", "   ") : data;
+                                    strdata = "    " + strdata + "  ";
+                                    ws13R.Cells[i + 2, j + 1] = strdata;
+                                }
+                                else if (i == 4)
+                                {
+                                    string strdata = data.Contains(" ") ? data.Replace(" ", "    ") : data;
+                                    strdata = "   " + strdata + "  ";
+                                    ws13R.Cells[i + 2, j + 1] = strdata;
+                                }
+                                else if (i == 5)
+                                {
+                                    data = "  " + data + "  ";
+                                    ws13R.Cells[i + 2, j + 1] = data;
+                                }
+                                else if (i == 6)
+                                {
+                                    data = "  " + data + "  ";
+                                    ws13R.Cells[i + 2, j + 1] = data;
+                                }
+
+
+
+
+
+
+								/**************Excel object Closing****************/
+								            xla13RG.DisplayAlerts = false;
+											if (xla13RG != null)
+											{
+												xla13RG.Quit();
+												xla13RG = null;
+											}
+											xla22RG.DisplayAlerts = false;
+            if (xla22RG != null)
+            {
+                xla22RG.Quit();
+                xla22RG = null;
+            }
+            xla24.DisplayAlerts = false;
+            if (xla24 != null)
+            {
+                xla24.Quit();
+                xla24 = null;
+            }
+            xla25.DisplayAlerts = false;
+            if (xla25 != null)
+            {
+                xla25.Quit();
+                xla25 = null;
+            }
