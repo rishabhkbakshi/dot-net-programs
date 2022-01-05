@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "JavaScriptTutorial", "..\..\JavaScriptTutorial\", "{520D9C33-890A-48BC-9BDD-A3AF088659D2}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/JavaScriptTutorial"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\JavaScriptTutorial\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\JavaScriptTutorial\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/JavaScriptTutorial"
+		Release.AspNetCompiler.PhysicalPath = "..\..\JavaScriptTutorial\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\JavaScriptTutorial\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "3214"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{520D9C33-890A-48BC-9BDD-A3AF088659D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{520D9C33-890A-48BC-9BDD-A3AF088659D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

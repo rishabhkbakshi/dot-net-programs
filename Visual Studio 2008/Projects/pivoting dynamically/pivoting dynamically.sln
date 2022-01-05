@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "pivoting dynamically", "..\..\WebSites\pivoting dynamically\", "{0F0FF7E2-597E-4DAD-87C4-FC9A8A97DCFA}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/pivoting dynamically"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\pivoting dynamically\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\pivoting dynamically\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/pivoting dynamically"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\pivoting dynamically\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\pivoting dynamically\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49213"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F0FF7E2-597E-4DAD-87C4-FC9A8A97DCFA}.Debug|.NET.ActiveCfg = Debug|.NET
+		{0F0FF7E2-597E-4DAD-87C4-FC9A8A97DCFA}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

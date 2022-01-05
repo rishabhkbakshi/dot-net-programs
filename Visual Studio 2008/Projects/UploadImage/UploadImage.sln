@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "UploadImage", "..\..\WebSites\UploadImage\", "{BBC8D270-1522-43A9-AE90-DAA65BDF7848}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/UploadImage"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\UploadImage\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\UploadImage\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/UploadImage"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\UploadImage\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\UploadImage\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1901"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBC8D270-1522-43A9-AE90-DAA65BDF7848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBC8D270-1522-43A9-AE90-DAA65BDF7848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

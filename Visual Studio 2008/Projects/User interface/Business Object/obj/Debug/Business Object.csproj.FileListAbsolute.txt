@@ -1,0 +1,5 @@
+C:\Documents and Settings\Rishabh\My Documents\Visual Studio 2008\Projects\User interface\Business Object\bin\Debug\Business Object.dll
+C:\Documents and Settings\Rishabh\My Documents\Visual Studio 2008\Projects\User interface\Business Object\bin\Debug\Business Object.pdb
+C:\Documents and Settings\Rishabh\My Documents\Visual Studio 2008\Projects\User interface\Business Object\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Rishabh\My Documents\Visual Studio 2008\Projects\User interface\Business Object\obj\Debug\Business Object.dll
+C:\Documents and Settings\Rishabh\My Documents\Visual Studio 2008\Projects\User interface\Business Object\obj\Debug\Business Object.pdb

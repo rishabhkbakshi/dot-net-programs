@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Dynamic Gridview", "..\..\WebSites\Dynamic Gridview\", "{F4EB3360-98D8-4E72-B97F-55C839ADFA74}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/Dynamic Gridview"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\Dynamic Gridview\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Dynamic Gridview\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Dynamic Gridview"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\Dynamic Gridview\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Dynamic Gridview\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1106"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4EB3360-98D8-4E72-B97F-55C839ADFA74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4EB3360-98D8-4E72-B97F-55C839ADFA74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

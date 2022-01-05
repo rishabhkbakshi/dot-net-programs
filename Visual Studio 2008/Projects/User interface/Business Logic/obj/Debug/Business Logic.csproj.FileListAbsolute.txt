@@ -1,0 +1,9 @@
+C:\Documents and Settings\Rishabh\My Documents\Visual Studio 2008\Projects\User interface\Business Logic\bin\Debug\Business Logic.dll
+C:\Documents and Settings\Rishabh\My Documents\Visual Studio 2008\Projects\User interface\Business Logic\bin\Debug\Business Logic.pdb
+C:\Documents and Settings\Rishabh\My Documents\Visual Studio 2008\Projects\User interface\Business Logic\bin\Debug\Business Object.dll
+C:\Documents and Settings\Rishabh\My Documents\Visual Studio 2008\Projects\User interface\Business Logic\bin\Debug\Data Access.dll
+C:\Documents and Settings\Rishabh\My Documents\Visual Studio 2008\Projects\User interface\Business Logic\bin\Debug\Data Access.pdb
+C:\Documents and Settings\Rishabh\My Documents\Visual Studio 2008\Projects\User interface\Business Logic\bin\Debug\Business Object.pdb
+C:\Documents and Settings\Rishabh\My Documents\Visual Studio 2008\Projects\User interface\Business Logic\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Rishabh\My Documents\Visual Studio 2008\Projects\User interface\Business Logic\obj\Debug\Business Logic.dll
+C:\Documents and Settings\Rishabh\My Documents\Visual Studio 2008\Projects\User interface\Business Logic\obj\Debug\Business Logic.pdb

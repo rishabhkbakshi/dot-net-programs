@@ -1,0 +1,7 @@
+C:\Documents and Settings\Rishabh\My Documents\Visual Studio 2008\Projects\User interface\Data Access\bin\Debug\Data Access.dll
+C:\Documents and Settings\Rishabh\My Documents\Visual Studio 2008\Projects\User interface\Data Access\bin\Debug\Data Access.pdb
+C:\Documents and Settings\Rishabh\My Documents\Visual Studio 2008\Projects\User interface\Data Access\bin\Debug\Business Object.dll
+C:\Documents and Settings\Rishabh\My Documents\Visual Studio 2008\Projects\User interface\Data Access\bin\Debug\Business Object.pdb
+C:\Documents and Settings\Rishabh\My Documents\Visual Studio 2008\Projects\User interface\Data Access\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Rishabh\My Documents\Visual Studio 2008\Projects\User interface\Data Access\obj\Debug\Data Access.dll
+C:\Documents and Settings\Rishabh\My Documents\Visual Studio 2008\Projects\User interface\Data Access\obj\Debug\Data Access.pdb

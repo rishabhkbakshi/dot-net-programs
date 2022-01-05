@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite14", "..\..\WebSites\WebSite14\", "{889C171C-F6DE-4429-B085-D7D7D9A3A2D0}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/WebSite14"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\WebSite14\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebSite14\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WebSite14"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\WebSite14\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WebSite14\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2973"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{889C171C-F6DE-4429-B085-D7D7D9A3A2D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{889C171C-F6DE-4429-B085-D7D7D9A3A2D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
