@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Candidates>
+  <Candidate>
+    <Id>1</Id>
+    <Name>Rishabh</Name>
+    <Salary>10000</Salary>
+  </Candidate>
+  <Candidate>
+    <Id>2</Id>
+    <Name>Ramesh</Name>
+    <Salary>15000</Salary>
+  </Candidate>
+  <Candidate>
+    <Id>3</Id>
+    <Name>Devang</Name>
+    <Salary>20000</Salary>
+  </Candidate>
+  <Candidate>
+    <Id>4</Id>
+    <Name>Vipul</Name>
+    <Salary>1200</Salary>
+  </Candidate>
+</Candidates>
