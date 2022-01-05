@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "connection", "..\..\WebSites\connection\", "{AF81095F-9DCF-47D0-8C60-4F56B25826C3}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/connection"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\connection\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\connection\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/connection"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\connection\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\connection\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1431"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF81095F-9DCF-47D0-8C60-4F56B25826C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF81095F-9DCF-47D0-8C60-4F56B25826C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
