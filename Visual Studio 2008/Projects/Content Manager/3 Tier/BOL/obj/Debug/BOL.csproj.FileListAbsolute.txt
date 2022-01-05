@@ -1,5 +1,0 @@
-C:\Documents and Settings\Rishabh\My Documents\Visual Studio 2008\Projects\3 Tier\BOL\bin\Debug\BOL.dll
-C:\Documents and Settings\Rishabh\My Documents\Visual Studio 2008\Projects\3 Tier\BOL\bin\Debug\BOL.pdb
-C:\Documents and Settings\Rishabh\My Documents\Visual Studio 2008\Projects\3 Tier\BOL\obj\Debug\ResolveAssemblyReference.cache
-C:\Documents and Settings\Rishabh\My Documents\Visual Studio 2008\Projects\3 Tier\BOL\obj\Debug\BOL.dll
-C:\Documents and Settings\Rishabh\My Documents\Visual Studio 2008\Projects\3 Tier\BOL\obj\Debug\BOL.pdb

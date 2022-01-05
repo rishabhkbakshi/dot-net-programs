@@ -1,9 +1,0 @@
-C:\Documents and Settings\Rishabh\My Documents\Visual Studio 2008\Projects\3 Tier\BAL\bin\Debug\BAL.dll
-C:\Documents and Settings\Rishabh\My Documents\Visual Studio 2008\Projects\3 Tier\BAL\bin\Debug\BAL.pdb
-C:\Documents and Settings\Rishabh\My Documents\Visual Studio 2008\Projects\3 Tier\BAL\bin\Debug\BOL.dll
-C:\Documents and Settings\Rishabh\My Documents\Visual Studio 2008\Projects\3 Tier\BAL\bin\Debug\DAL.dll
-C:\Documents and Settings\Rishabh\My Documents\Visual Studio 2008\Projects\3 Tier\BAL\bin\Debug\BOL.pdb
-C:\Documents and Settings\Rishabh\My Documents\Visual Studio 2008\Projects\3 Tier\BAL\bin\Debug\DAL.pdb
-C:\Documents and Settings\Rishabh\My Documents\Visual Studio 2008\Projects\3 Tier\BAL\obj\Debug\ResolveAssemblyReference.cache
-C:\Documents and Settings\Rishabh\My Documents\Visual Studio 2008\Projects\3 Tier\BAL\obj\Debug\BAL.dll
-C:\Documents and Settings\Rishabh\My Documents\Visual Studio 2008\Projects\3 Tier\BAL\obj\Debug\BAL.pdb
