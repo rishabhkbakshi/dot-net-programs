@@ -1,0 +1,11 @@
+c:\users\rishdik\documents\visual studio 2010\Projects\Telephone\Telephone\bin\Debug\Telephone.exe
+c:\users\rishdik\documents\visual studio 2010\Projects\Telephone\Telephone\bin\Debug\Telephone.pdb
+c:\users\rishdik\documents\visual studio 2010\Projects\Telephone\Telephone\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\rishdik\documents\visual studio 2010\Projects\Telephone\Telephone\obj\x86\Debug\Telephone.EntryForm.resources
+c:\users\rishdik\documents\visual studio 2010\Projects\Telephone\Telephone\obj\x86\Debug\Telephone.Properties.Resources.resources
+c:\users\rishdik\documents\visual studio 2010\Projects\Telephone\Telephone\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\rishdik\documents\visual studio 2010\Projects\Telephone\Telephone\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\rishdik\documents\visual studio 2010\Projects\Telephone\Telephone\obj\x86\Debug\Telephone.exe
+c:\users\rishdik\documents\visual studio 2010\Projects\Telephone\Telephone\obj\x86\Debug\Telephone.pdb
+D:\Study\Asp.net Study Material\Dot net Program\Visual Studio Program\Visual Studio 2010\Projects\Telephone\Telephone\obj\x86\Debug\Telephone.exe
+D:\Study\Asp.net Study Material\Dot net Program\Visual Studio Program\Visual Studio 2010\Projects\Telephone\Telephone\obj\x86\Debug\Telephone.pdb
