@@ -1,0 +1,100 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>My Master Project </title>
+    <style type="text/css">
+        body
+        {
+            font-family: Arial;
+            font-size: 12px;
+            color: Black;
+        }
+        .arial12
+        {
+            font-family: Arial;
+            font-weight: bold;
+            font-size: large;
+            color: Black;
+        }
+        .style1
+        {
+            width: 100%;
+            color: Black;
+            font-size: medium;
+        }
+        .input_text
+        {
+            border: 1px solid #c0c0c0;
+            padding: 4px;
+            font-size: 14px;
+            outline: 0;
+            color: #000000;
+            background-color: #ffffff;
+            width: 200px;
+        }
+        .input_button
+        {
+            width: auto;
+            background-color: Silver;
+            border-style: groove;
+            border-width: thin;
+            border-color: Black;
+            font-size: 14px;
+            color: Black;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-color: Gray;">
+    <form id="form1" runat="server">
+    <div style="text-align: center">
+        <asp:Label ID="lblCollage" runat="server" Text="Engg. College of Bikaner" Font-Bold="true"
+            Font-Size="XX-Large" Font-Underline="true" Style="text-align: center"></asp:Label>
+        <table>
+            <tr>
+                <td>
+                    <u>
+                        <label class="arial12">
+                            Time:-</label>
+                        <label id="demo" class="arial12">
+                        </label>
+                    </u>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <u>
+                        <asp:Label ID="lblDateMaster" runat="server" Text="Date:-" CssClass="arial12"></asp:Label>
+                        <asp:Label ID="lbl_Date" runat="server" ForeColor="Black" CssClass="arial12"></asp:Label>
+                    </u>
+                </td>
+            </tr>
+        </table>
+
+        <script type="text/javascript">
+            var myvar = setInterval(function() { myTimer() }, 1000);
+            function myTimer() {
+                document.getElementById("demo").innerHTML = new Date().toLocaleTimeString();
+            }
+        </script>
+
+        <%--<code id="time">The Time, Date and Year</code>
+
+        <script type="text/javascript">
+            function GetTime() {
+                window.setTimeout("GetTime()", 1000);
+                document.all.time.innerHTML = new Date();
+            }
+            GetTime();
+        </script>--%>
+    </div>
+    <div style="background-color: Silver;">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
